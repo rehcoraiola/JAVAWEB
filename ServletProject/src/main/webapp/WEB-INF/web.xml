@@ -12,7 +12,15 @@
   
   <servlet> 
   	<servlet-name>Principal</servlet-name>
-  	<servlet-class>servlets/MainServlets</servlet-class>
+  	<servlet-class>/servlets/MainServlets</servlet-class>
+  	<init-param>
+  		<param-name>servidor</param-name>
+  		<param-value>Apache Tomcat</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>administrador</param-name>
+  		<param-value>Renata</param-value>
+  	</init-param>
   </servlet>  
   
   <servlet-mapping>
